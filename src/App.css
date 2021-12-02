@@ -1,0 +1,76 @@
+body{
+  background-image:  url(Clock.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-attachment: fixed;
+  background-size: 400px;
+  background-color: rgb(47,122,129);
+  height: 100vh;
+}
+
+.whole1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h1{
+  color: black;
+  font-size: 70px;
+  width: 100%;
+  height: fit-content;
+  margin: 1%;
+}
+
+.whole2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5%;
+  padding: 0.5%;
+  width: 100%;
+}
+
+input{
+  color: rgb(27,46,73);
+  font-size: 50px;
+  width: 90%;
+  height: fit-content;
+  margin: 0;
+}
+
+ul{
+  width: 100%;
+  padding: 0;
+  margin: 0%;
+}
+
+.whole3 {
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid rgb(129,47,81);
+  margin: 1.5%;
+  padding: 0.5%;
+}
+
+h2{
+  color: rgb(27,46,73);
+  text-align: justify;
+  font-size: 50px;
+  width: 90%;
+  height: fit-content;
+  margin: 0;
+  list-style-type: disc;
+}
+
+button{
+  background-color: rgb(129,47,81, 0.5);
+  font-weight: bold;
+  color: rgb(27,46,73);
+}
+
+
+button:hover{
+  background-color: rgb(129,47,81);
+  color: black;
+}
