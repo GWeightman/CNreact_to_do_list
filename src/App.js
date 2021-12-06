@@ -31,7 +31,7 @@ function App() {
     }
 
     return(
-        <div class="whole1">
+        <div className="whole1">
           <h1>To Do List</h1>
          <Addtask changeHandler={changeHandler} inputValue={inputValue} enter={enter} addHandler={addHandler}/>
          <To_do to_do={to_do} removeHandler={removeHandler}/>
