@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css';
+import Addtask from './componets/add';
+import To_do from './componets/to_do';
 
 function App() {
   const [to_do, setTo_do] = useState([])
@@ -31,20 +33,8 @@ function App() {
     return(
         <div class="whole1">
           <h1>To Do List</h1>
-          <div class="whole2"> 
-            <input type="text" onChange={changeHandler} value={inputValue} onKeyDown={enter}/>
-            <button onClick={addHandler}>Add To List</button>
-          </div>
-          <ul> 
-            <li>{to_do.map((todo, index) => {
-                return(
-                  <div class="whole3">
-                    <h2>• {todo}</h2>
-                    <button id="button" onClick={()=>removeHandler(index)}>Completed</button>
-                  </div>
-                )
-            })}</li>
-          </ul>
+         <Addtask changeHandler={changeHandler} inputValue={inputValue} enter={enter} addHandler={addHandler}/>
+         <To_do to_do={to_do} removeHandler={removeHandler}/>
         </div>
     )
     
