@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_to_do_list/static/css/main.f7d8d690.chunk.css",
+    "main.js": "/react_to_do_list/static/js/main.313929da.chunk.js",
+    "main.js.map": "/react_to_do_list/static/js/main.313929da.chunk.js.map",
+    "runtime-main.js": "/react_to_do_list/static/js/runtime-main.d15d19de.js",
+    "runtime-main.js.map": "/react_to_do_list/static/js/runtime-main.d15d19de.js.map",
+    "static/js/2.a1385a72.chunk.js": "/react_to_do_list/static/js/2.a1385a72.chunk.js",
+    "static/js/2.a1385a72.chunk.js.map": "/react_to_do_list/static/js/2.a1385a72.chunk.js.map",
+    "static/js/3.caad44d9.chunk.js": "/react_to_do_list/static/js/3.caad44d9.chunk.js",
+    "static/js/3.caad44d9.chunk.js.map": "/react_to_do_list/static/js/3.caad44d9.chunk.js.map",
+    "index.html": "/react_to_do_list/index.html",
+    "static/css/main.f7d8d690.chunk.css.map": "/react_to_do_list/static/css/main.f7d8d690.chunk.css.map",
+    "static/js/2.a1385a72.chunk.js.LICENSE.txt": "/react_to_do_list/static/js/2.a1385a72.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react_to_do_list/static/media/Clock.79bdc4f2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d15d19de.js",
+    "static/js/2.a1385a72.chunk.js",
+    "static/css/main.f7d8d690.chunk.css",
+    "static/js/main.313929da.chunk.js"
+  ]
+}
